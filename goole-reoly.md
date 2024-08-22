@@ -69,7 +69,7 @@ All timestamps are in Beijing Time (UTC+8):
 - **2023-08-22 12:47** Issue confirmed, and it was discovered that the system incorrectly assigned the wrong CRLReason codes.
 - **2024-08-22 15:30** Reason for the issue:
 
-  - **unspecified (0):** When SHECA's certificates encounter compliance issues, as a commercial CA, SHECA will do its utmost within the allowable regulations to ensure uninterrupted service for subscribers. We will promptly notify the subscribers to apply for a new replacement certificate through SHECA's issuance system. The subscriber will then request the revocation of their original certificate and choose the default CRLReason code "unspecified (0)," as most users do not understand the purposes of the other CRLReason code options.
+  - **unspecified (0):**  When SHECA's certificates encounter compliance issues, as a commercial CA, SHECA will do its utmost within the allowable regulations to ensure uninterrupted service for subscribers. We will promptly notify the subscribers to apply for a new replacement certificate through SHECA's issuance system. The subscriber will then request the revocation of their original certificate and choose the default CRLReason code "unspecified (0)," as most users do not understand the purposes of the other CRLReason code options.
 
   - **privilegeWithdrawn:** SHECA uses two RA systems, one of which has a defect. Even if the subscriber selects "unspecified (0)" the value ultimately transmitted to the CA system is "privilegeWithdrawn"
 
@@ -81,7 +81,7 @@ All timestamps are in Beijing Time (UTC+8):
 
 - **Why were different CRLReason codes used for the revoked certificates?**
 
-  - **unspecified (0):**When SHECA's certificates encounter compliance issues, as a commercial CA, SHECA will do its utmost within the allowable regulations to ensure uninterrupted service for subscribers. We will promptly notify the subscribers to apply for a new replacement certificate through SHECA's issuance system. The subscriber will then request the revocation of their original certificate and choose the default CRLReason code "unspecified (0)," as most users do not understand the purposes of the other CRLReason code options.
+  - **unspecified (0):** When SHECA's certificates encounter compliance issues, as a commercial CA, SHECA will do its utmost within the allowable regulations to ensure uninterrupted service for subscribers. We will promptly notify the subscribers to apply for a new replacement certificate through SHECA's issuance system. The subscriber will then request the revocation of their original certificate and choose the default CRLReason code "unspecified (0)," as most users do not understand the purposes of the other CRLReason code options.
 
    - **privilegeWithdrawn:** SHECA uses two RA systems, one of which has a defect. Even if the subscriber selects "unspecified (0)" the value ultimately transmitted to the CA system is "privilegeWithdrawn"
 
