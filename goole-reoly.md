@@ -11,7 +11,7 @@ SHECA received an email notification that the revoked certificates in two recent
 
 ### **Impact**
 
-According to the BR guidelines, the CRLReason code for subscriber certificates must comply with TLS BR 4.9.1.1. The certificates involved in the aforementioned cases have multiple CRLReason codes, including the incorrect use of the `privilegeWithdrawn` CRLReason code.
+According to the BR guidelines, the CRLReason codes for subscriber certificates must comply with the requirements of TLS BR 4.9.1.1. In the mentioned case, the revoked certificates had multiple CRLReason codes, and the "privilegeWithdrawn" CRLReason code was used incorrectly.
 
 **According to the BR and Mozilla guidelines, the use of `privilegeWithdrawn` should be as follows:**
 
