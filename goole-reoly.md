@@ -87,11 +87,6 @@ All timestamps are in Beijing Time (UTC+8):
 
   - **superseded:** For subscribers who do not proactively request revocation, SHECA uses a script to batch revoke certificates, assigning the CRLReason code “superseded,” which is compliant with TLS BR 4.9.1.1 (12).
 
-The following image shows the interface for selecting the revocation reason in SHECA's system:
-
-![Uploading 1724326234512.png…]()
-
-
 
 - **Why wasn't this issue detected in time?**
 
