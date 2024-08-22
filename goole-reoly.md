@@ -67,7 +67,7 @@ All timestamps are in Beijing Time (UTC+8):
 - **2023-08-22 00:00** Received notification email.
 - **2023-08-22 09:00** Investigation began to determine the reasons behind the different revocation codes.
 - **2023-08-22 12:47** Issue confirmed, and it was discovered that the system incorrectly assigned the wrong CRLReason codes.
-- **2024-06-14 21:30** Reason for the issue:
+- **2024-08-22 15:30** Reason for the issue:
 
   - **unspecified (0):** When compliance issues arise, SHECA notifies the subscriber and applies for a new certificate. Some subscribers then request the revocation of their original certificate, choosing the default CRLReason code “unspecified (0)”.
 
@@ -75,7 +75,7 @@ All timestamps are in Beijing Time (UTC+8):
 
   - **superseded:** For subscribers who do not proactively request revocation, SHECA uses a script to batch revoke certificates, assigning the CRLReason code “superseded,” which is compliant with TLS BR 4.9.1.1 (12).
 
-- **2024-06-14 22:30** Suspended all certificate revocation operations.
+- **2024-08-22 15:31** Suspended all certificate revocation operations.
 
 ### **Root Cause Analysis**
 
