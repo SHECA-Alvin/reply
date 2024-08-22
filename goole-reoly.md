@@ -106,9 +106,9 @@ This issue could not be detected using linting tools because the CRLReason codes
 
 | **Action Item**                                              | **Type**     | **Due Date** |
 | ------------------------------------------------------------ | ------------ | ------------ |
-| Fix the incorrect CRLReason code value transmission issue in the affected RA system. | *Prevention* | 2024-06-14   |
-| Review all CRLReason code usage scenarios to confirm no further issues exist. | *Prevention* | 2024-06-14   |
-
+| Fix the incorrect CRLReason code value transmission issue in the affected RA system. | *Prevention* | 2024-08-27   |
+| Review all CRLReason code usage scenarios to confirm no further issues exist. | *Prevention* | 2024-06-29  |
+| In the revocation process, restrictions on the use of privilegeWithdrawn are added. If the operator uses the privilegeWithdrawn CRLReason code to revoke a certificate, it is required to upload relevant evidence of the customer's violation and the certificate can be officially revoked only after review by the compliance department. | *Prevention* | 2024-06-30  |
 ### **Appendix**
 
 #### **Detailed Information on Affected Certificates**
