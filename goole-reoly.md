@@ -89,7 +89,8 @@ All timestamps are in Beijing Time (UTC+8):
 
 The following image shows the interface for selecting the revocation reason in SHECA's system:
 
-![Revocation Reason Interface](E:\HuaweiMoveData\Users\10746\Desktop\1724326234512.png)
+![Uploading 1724326234512.png…]()
+
 
 - **Why wasn't this issue detected in time?**
 
