@@ -71,7 +71,7 @@ All timestamps are in Beijing Time (UTC+8):
 
   - **unspecified (0):** When compliance issues arise, SHECA notifies the subscriber and applies for a new certificate. Some subscribers then request the revocation of their original certificate, choosing the default CRLReason code “unspecified (0)”.
 
-  - **privilegeWithdrawn:** SHECA uses two RA systems, one of which has a bug that results in the issuance of SSL certificates with the incorrect CRLReason code “privilegeWithdrawn,” even when “unspecified (0)” was selected.
+  - **privilegeWithdrawn:** SHECA uses two RA systems, one of which has a defect. Even if the subscriber selects "unspecified (0)" the value ultimately transmitted to the CA system is "privilegeWithdrawn"
 
   - **superseded:** For subscribers who do not proactively request revocation, SHECA uses a script to batch revoke certificates, assigning the CRLReason code “superseded,” which is compliant with TLS BR 4.9.1.1 (12).
 
