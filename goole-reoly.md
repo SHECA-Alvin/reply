@@ -7,7 +7,7 @@ SHECA received an email notification that the revoked certificates in two recent
 - [Case 1](https://bugzilla.mozilla.org/show_bug.cgi?id=1902947)
 - [Case 2](https://bugzilla.mozilla.org/show_bug.cgi?id=1902592)
 
-SHECA has opened a new case on Bugzilla to provide the community with more detailed information. The new case is available at: [New Case](https://bugzilla.mozilla.org/show_bug.cgi?id=1914365)
+
 
 ### **Impact**
 
