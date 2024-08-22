@@ -90,7 +90,7 @@ All timestamps are in Beijing Time (UTC+8):
 
 - **Why wasn't this issue detected in time?**
 
-  SHECA performs a linting process on signed CRLs, but this issue could not be detected through linting because the CRLReason codes themselves were correct, though they were used in the wrong context.
+  SHECA conducted a linting process on the signed CRL, but this process could not detect the issue. Although the value of the CRLReason code was correct, its usage did not strictly adhere to the BR guidelines, and SHECA's RA system imposed no special restrictions on the use of the "privilegeWithdrawn" CRLReason code.
 
 ### **Lessons Learned**
 
