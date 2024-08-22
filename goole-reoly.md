@@ -92,6 +92,7 @@ The following image shows the interface for selecting the revocation reason in S
 ![Uploading 1724326234512.png…]()
 
 
+
 - **Why wasn't this issue detected in time?**
 
   SHECA performs a linting process on signed CRLs, but this issue could not be detected through linting because the CRLReason codes themselves were correct, though they were used in the wrong context.
