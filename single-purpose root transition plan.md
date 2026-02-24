@@ -2,9 +2,9 @@
 
 ## 1.Root certificates involved
 
-[UCA Extended Validation Root]()
+[UCA Extended Validation Root](https://crt.sh/?id=52590928)
 
-[UCA Global G2 Root]()
+[UCA Global G2 Root](https://crt.sh/?id=52590901)
 
 ## 2.Migration Plan
 
